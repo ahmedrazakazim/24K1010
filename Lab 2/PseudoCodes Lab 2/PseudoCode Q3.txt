@@ -1,0 +1,12 @@
+Start
+Input a, b, operator
+Read a, b, operator
+if (operator = '+')
+   Result = a + b
+   Print Result
+else if (operator = '-')
+  Result = a - b
+  Print Result
+else
+  Print "Invalid Operator"
+End

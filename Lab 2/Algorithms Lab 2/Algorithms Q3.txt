@@ -1,0 +1,9 @@
+Input 2 numbers 'a' and 'b' from user
+Input operator 'o' from user
+If o is not equal  to('+', '-', '*', '/', '%'), repeat line 2
+If o is '+' then set output = a + b.
+else if o is '-' then set output = a - b
+else if o is '%' then set output = a % b
+else if o is '*' then set output = a * b
+else if o is '/' then set output = a / b 
+Print output

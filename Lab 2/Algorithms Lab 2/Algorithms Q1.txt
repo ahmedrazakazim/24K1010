@@ -1,0 +1,5 @@
+Get divisor from user
+Get Number from user
+Calculate "number % divisor" for remainder
+If the remainder is 0, display "The divisor is a proper divisor.", else display "The divisor is NOT a divisor."
+If "divisor % 2" is 0, display "Divisor is even.", else display "Divisor is odd."

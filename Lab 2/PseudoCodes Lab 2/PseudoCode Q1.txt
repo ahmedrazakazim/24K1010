@@ -1,0 +1,15 @@
+Start
+Input a, b, c
+Read a, b, c
+if (a > b)
+   if (a > c)
+         Print "A is the biggest."
+else if (b > a)
+       if (b > c)
+         Print "B is the biggest."
+else if (c > a)
+      if (c > b)
+         Print "C is the biggest."
+else
+    Print "All are equal."
+End
