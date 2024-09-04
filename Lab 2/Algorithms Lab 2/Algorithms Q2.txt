@@ -1,27 +1,18 @@
 Input an integer "n" from the user
 If n is not between 1-12, print "Invalid number, Please enter a number between 1-12" and repeat step 1 to take new input
-If 
-  n is 1, print "January" 
-else if
-  n is 2, print "February" 
-else if
-  n is 3, print "March" 
-else if
-  n is 4, print "April" 
-else if
-  n is 5, print "May" 
-else if
-  n is 6, print "June" 
-else if
-  n is 7, print "July"
-else if
-  n is 8, print "August"
-else if
-  n is 9, print "September"
-else if
-  n is 10, print "October"
-else if
-  n is 11, print "November"
-else
-  print "December"
-  
+If n is 1 then display "January"
+If n is 2 then diplay "February"
+If n is 3 then display "March"
+If n is 4 then display "April"
+If n is 5 then display "May"
+If n is 6 then display "June"
+If n is 7 then display "July"
+If n is 8 then display "August"
+If n is 9 then display "September"
+If n is 10 then display "October"
+If n is 11 then display "November"
+If n is 12 then display "December"
+
+
+
+ 
