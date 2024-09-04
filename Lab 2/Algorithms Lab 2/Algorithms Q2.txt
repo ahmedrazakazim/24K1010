@@ -1,6 +1,5 @@
 Input an integer "n" from the user
-If n is not between 1-12, print "Invalid number, Please enter a number between 1-12" and repeat step 1 to take new input
-If n is 1 then display "January"
+If n is not between 1-12, print "Invalid number, Please enter a number between 1-12" and repeat step 1 to take new inpIf n is 1 then display "January"
 If n is 2 then diplay "February"
 If n is 3 then display "March"
 If n is 4 then display "April"
@@ -12,6 +11,3 @@ If n is 9 then display "September"
 If n is 10 then display "October"
 If n is 11 then display "November"
 If n is 12 then display "December"
-
-
- 
