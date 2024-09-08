@@ -7,5 +7,6 @@
 4. I am passionate about gaming, art and music.
 5. I am good at most things I do.
 6. I learn things very quickly.
-7. ![Here's a picture of me :).](https://github.com/user-attachments/assets/ca3c7ab0-1d4e-4e84-b0c4-b3ff7d546f27)
+
+   ![Here's a picture of me :).](https://github.com/user-attachments/assets/ca3c7ab0-1d4e-4e84-b0c4-b3ff7d546f27)
 
