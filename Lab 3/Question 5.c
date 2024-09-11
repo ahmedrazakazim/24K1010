@@ -31,5 +31,6 @@ printf("Out of range");
   
   simpleint  = (Principle*interestrate*timeperiod)/100;
   printf("The Simple Interest is %f",simpleint);
-  
+  ![image](https://github.com/user-attachments/assets/3678e8de-f332-4fb3-87ab-7e34147f476b)
+
 }
