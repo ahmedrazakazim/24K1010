@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
 int ID,units;
-float totalbill;
+float bill;
 char n[50];
 printf("Enter Customer ID\n");
 scanf("%d" , &ID);
@@ -10,24 +10,24 @@ scanf("%s", &n);
 printf("Enter units consumed\n");
 scanf("%d", &units);
  if (units <= 199 && units>=0) {
-totalbill=16.20*units;
+bill=16.20*units;
 }
 else if (units>=200 && units<300) {
-totalbill=20.10*units;
+bill=20.10*units;
 }
 else if (units>=300 && units<500) {
-totalbill=27.10*units;
+bill=27.10*units;
 }
 else {
-totalbill=35.90*units;
+bill=35.90*units;
 }
-if (totalbill>18000) {
-totalbill=totalbill+totalbill*0.15;
+if (bill>18000) {
+bill=bill+bill*0.15;
 }
 printf("\n Electric bill\n");
 printf("Customer name; %s\n", n);
 printf("Customer Id: %d\n", ID);
 printf("Units consumed: %d\n" , units);
-printf("Total bill: %.2f\n" , totalbill);
+printf("Total bill: %.2f\n" , bill);
 return 0;
 }
