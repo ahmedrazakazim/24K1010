@@ -38,7 +38,7 @@ if (n >= 1 && n <= 9) {
             }
         }
     else if (n > 9) {
-        printf("\ngreater than 9");
+        printf("\nGreater than 9");
     }
     else {
         printf("The number is not positive.\n");
