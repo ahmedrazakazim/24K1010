@@ -2,7 +2,7 @@
 
 int main() {
 int n;
-printf("Enter a positive integer: ");
+printf("Enter a positive number: ");
 scanf("%d", &n);
 if (n >= 1 && n <= 9) {
     switch (n) {
