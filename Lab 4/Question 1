@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main() {
+int num;
+printf("Enter a Number: ");
+scanf("%d",&num);
+if (num%3==0) { 
+printf("num is multiple of 3");
+}
+else {
+printf("num is not multiple of 3");
+}
+return 0;
+}
