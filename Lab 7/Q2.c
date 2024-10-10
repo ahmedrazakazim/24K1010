@@ -8,21 +8,16 @@ int main() {
 
     for (i = 0; input[i] != '\0' ; i++) {
     	if(input[i] =='A'|| input[i] == 'a'){
-    		A++;
-		}
+    		A++; }
 		if(input[i] =='E'|| input[i] == 'e'){
-    		E++;
-		}
+    		E++; }
 		if(input[i] =='I'|| input[i] == 'i'){
-    		I++;
-		}
+    		I++; }
 		if(input[i] =='O'|| input[i] == 'o'){
-    		O++;
-		}
+    		O++; }
 		if(input[i] =='U' || input[i] == 'u'){
-    		U++;
-		}
-}
+    		U++; }
+    }
 	printf("a = %d e = %d i = %d o = %d u = %d", A, E, I, O, U);
-return 0;
+    return 0;
     }
