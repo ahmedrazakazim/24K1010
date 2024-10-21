@@ -13,7 +13,7 @@ int main() {
         arr[i] = arr[i - 1];
     }
     arr[0] = temp; 
-    printf("Array after right shift:\n");
+    printf("After right shift:\n");
     for (i = 0; i < 6; i++) {
         printf("%d ", arr[i]);
     }
