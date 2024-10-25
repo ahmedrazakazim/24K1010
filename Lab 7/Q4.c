@@ -4,7 +4,7 @@ int main()
 {
     char input[100];
     char reversed_str[100];
-    int str_len = 0, index, palindrome_check = 1;
+    int str_len = 0, i, palindrome_check = 1;
 
     printf("Enter a string: ");
     gets(input);
@@ -14,15 +14,15 @@ int main()
         str_len++;
     }
 
-    for (index = 0; index < str_len; index++)
+    for (i = 0; i < str_len; i++)
     {
-        reversed_str[index] = input[str_len - 1 - index];
+        reversed_str[i] = input[str_len - 1 - i];
     }
     reversed_str[str_len] = '\0';
 
-    for (index = 0; index < str_len; index++)
+    for (i = 0; i < str_len; i++)
     {
-        if (input[index] != reversed_str[index])
+        if (input[i] != reversed_str[i])
         {
             palindrome_check = 0;
             break;
