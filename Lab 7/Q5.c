@@ -16,12 +16,12 @@ int main()
         if (counted[i] == 1)
             continue;
         int count = 1;
-        for (int next = i + 1; next < 10; next++)
+        for (int j = i + 1; j < 10; j++)
         {
-            if (numbers[i] == numbers[next])
+            if (numbers[i] == numbers[j])
             {
                 count++;
-                counted[next] = 1;
+                counted[j] = 1;
             }
         }
         printf("%d: %d\n", numbers[i], count);
