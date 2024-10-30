@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int num, start;
+    int num, a;
     printf("Enter the number of pairs: ");
     scanf("%d", &num);
-    printf("Enter the starting number: ");
-    scanf("%d", &start);
+    printf("Enter the aing number: ");
+    scanf("%d", &a);
 
     int arr[2][num][2];
     int cOdd = 0, cEven = 0;
 
-    for (int i = start; cOdd < num || cEven < num; i--) {
+    for (int i = a; cOdd < num || cEven < num; i--) {
         if (i % 2 == 0 && cEven < num) {
             arr[0][cEven][0] = i;
             arr[0][cEven][1] = i - 2;
