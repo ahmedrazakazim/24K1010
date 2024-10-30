@@ -2,9 +2,9 @@
 
 int main() {
     int num, a;
-    printf("Enter the number of pairs: ");
+    printf("Enter number of pairs: ");
     scanf("%d", &num);
-    printf("Enter the aing number: ");
+    printf("Enter Starting number: ");
     scanf("%d", &a);
 
     int arr[2][num][2];
