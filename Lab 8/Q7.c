@@ -51,4 +51,21 @@ int main()
     while (r <= 4)
     {
         int c = 0;
-        while (c
+        while (c < 105)
+        {
+            if (canvas[r][c] == '*')
+            {
+                printf("%c", canvas[r][c]);
+            }
+            else
+            {
+                printf(" ");
+            }
+            c++;
+        }
+        printf("\n");
+        r++;
+    }
+
+    return 0;
+}
