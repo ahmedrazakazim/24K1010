@@ -8,10 +8,8 @@ int main()
     int spaceCount = 1;
     int cycleCount = 0;
 
-    printf("CALCULATING....\n");
     while (cycleCount != 3)
     {
-        printf("%d %d %d\n", row, col, spaceCount);
         canvas[row][col] = '*';
 
         if (direction)
@@ -47,11 +45,9 @@ int main()
     }
 
     printf("GRID:\n");
-    int r = 0;
-    while (r <= 4)
+    for (int r = 0; r <= 4; r++)
     {
-        int c = 0;
-        while (c < 105)
+        for (int c = 0; c < 105; c++)
         {
             if (canvas[r][c] == '*')
             {
@@ -61,10 +57,8 @@ int main()
             {
                 printf(" ");
             }
-            c++;
         }
         printf("\n");
-        r++;
     }
 
     return 0;
