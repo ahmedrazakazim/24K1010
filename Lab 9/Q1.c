@@ -5,11 +5,11 @@ void checkPalindrome(char words[5][20]);
 
 int main() {
     char words[5][20];
-    int index;
+    int i;
 
-    for (index = 0; index < 5; index++) {
-        printf("\nEnter word %d: ", index + 1);
-        scanf("%s", words[index]);
+    for (i = 0; i < 5; i++) {
+        printf("\nEnter word %d: ", i + 1);
+        scanf("%s", words[i]);
     } 
 
     checkPalindrome(words);
@@ -17,17 +17,17 @@ int main() {
 }
 
 void checkPalindrome(char words[5][20]) {
-    int index;
+    int i;
     char reversed[20];
 
-    for (index = 0; index < 5; index++) {
-        strcpy(reversed, words[index]);
+    for (i = 0; i < 5; i++) {
+        strcpy(reversed, words[i]);
         strrev(reversed);  
 
-        if (strcmp(reversed, words[index]) == 0) {
-            printf("\n%s is a Palindrome", words[index]);
+        if (strcmp(reversed, words[i]) == 0) {
+            printf("\n%s is a Palindrome", words[i]);
         } else {
-            printf("\n%s is not a Palindrome", words[index]);
+            printf("\n%s is not a Palindrome", words[i]);
         }
     }
 }
