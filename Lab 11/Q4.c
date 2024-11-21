@@ -18,11 +18,11 @@ int main ()
 	int avg;
 	for(int i = 0 ; i < 5 ;i++)
 	{
-		printf("Enter the marks of maths of %d student:",i+1);
+		printf("Enter the marks of Maths for %d student:",i+1);
 		scanf("%d",&students[i].mark_of_stu.maths);
-		printf("Enter the marks of sci of %d student:",i+1);
+		printf("Enter the marks of Science for %d student:",i+1);
 		scanf("%d",&students[i].mark_of_stu.sci);
-		printf("Enter the marks of eng of %d student:",i+1);
+		printf("Enter the marks of English for %d student:",i+1);
 		scanf("%d",&students[i].mark_of_stu.eng);
 		printf("\n");
 	}
