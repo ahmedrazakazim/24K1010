@@ -47,7 +47,7 @@ int main(){
         printf("\n");
         printf("Zip Code:%d", tempemp.address.zip_code);
         printf(" \n");
- 		printf(" \n");       
+ 	printf(" \n");       
        
         
     }
