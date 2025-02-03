@@ -30,7 +30,7 @@ public:
 
 int main()
 {
-    Angle myAngle(149, 34.8, 'W');
+    Angle myAngle(179, 56.3, 'N');
 
     myAngle.showAngle();
 
