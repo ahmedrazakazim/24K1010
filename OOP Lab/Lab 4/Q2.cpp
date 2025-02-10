@@ -132,9 +132,9 @@ public:
 int main() {
     Library lib;
 
-    lib.addBook(1, "The Catcher in the Rye", "J.D. Salinger", true);
-    lib.addBook(2, "To Kill a Mockingbird", "Harper Lee", true);
-    lib.addBook(3, "1984", "George Orwell", true);
+    lib.addBook(1, "Things Fall Apart", "Chinua Achebe", true);
+    lib.addBook(2, "The Blue Umbrella", "Ruskin Bond", true);
+    lib.addBook(3, "The White Tiger", "Aravind Adiga", true);
 
     lib.displayAvailableBooks();
 
