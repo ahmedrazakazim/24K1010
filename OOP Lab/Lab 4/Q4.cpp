@@ -11,7 +11,7 @@ private:
 public:
     bool isRented;
 
-    Car() ,,,,,
+    Car()
         : isRented(false) 
     {}
 
