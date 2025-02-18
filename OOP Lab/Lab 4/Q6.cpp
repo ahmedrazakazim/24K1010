@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 
-class FinancialInstitution {
+class Bank {
 private:
     int accountID;
     string accountHolder;
     double funds;
 
 public:
-    FinancialInstitution() : accountID(0), accountHolder(""), funds(0.0) {}
+    Bank() : accountID(0), accountHolder(""), funds(0.0) {}
 
-    FinancialInstitution(int id, string holder, double initialFunds = 0.0) {
+    Bank(int id, string holder, double initialFunds = 0.0) {
         this->accountID = id;
         this->accountHolder = holder;
         this->funds = initialFunds;
@@ -45,8 +45,8 @@ public:
 };
 
 int main() {
-    FinancialInstitution client1(1020, "Hassan", 100000.0);
-    FinancialInstitution client2(205, "Simal");
+    Bank client1(1020, "Hassan", 100000.0);
+    Bank client2(205, "Simal");
 
     client1.showAccountInfo();
     client2.showAccountInfo();
