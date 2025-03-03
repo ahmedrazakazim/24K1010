@@ -10,7 +10,8 @@ float loanAmount;
 int Months;
 
 public:
-LoanHelper(float interest, float loan,int months) : interestrate(interest), loanAmount(loan), Months(months) {
+LoanHelper(const float interest, float loan,int months) : interestrate(interest), loanAmount(loan), Months(months) {
+    cout << "TESTING: " << interestrate << endl;
     if(interestrate < 0 || interestrate > 0.5) {
         cout<<"Interest rate must be between 0 and 0.5%"<< endl;
     }
