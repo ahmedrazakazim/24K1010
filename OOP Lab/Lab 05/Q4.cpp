@@ -1,26 +1,3 @@
-/*
-Define a class named BankAccount that includes the following attributes and functionalities:
-Attributes: The BankAccount class has three private member variables: accountNumber, 
-accountHolderName, and balance.
-Constructor: The class includes a constructor that initializes the account details 
-(accountNumber, accountHolderName, and balance).
-Member Functions:
-• deposit(double amount): Increases the balance by the specified amount.
-• withdraw(double amount): Decreases the balance by the specified amount, if sufficient funds are available.
-• display(): Shows the account details, including the account number, account holder name, and balance.
-In the main() function, create an array named accounts consisting of BankAccount objects. 
-The array should contain three elements, each for a different bank account.
-Initialize each BankAccount object with specific account details such as account number, 
-holder name, and initial balance.
-Perform the following operations:
-• Loop through each account in the accounts array.
-• For each account, use the display() function to show the account details.
-• Execute Two Transactions:
-• Deposit 500.0 rupees into the account.
-• Withdraw 200.0 rupees from the account.
-• After each transaction, display the updated account details, including the new balance.
-*/
-
 #include <iostream>
 using namespace std;
 
