@@ -1,13 +1,3 @@
-/*
-Design a class named ValidateString. This class is intended to determine if the characters in a 
-provided string are exclusively alphabetic. The presence of numbers or symbols will indicate that 
-the string is invalid. Use a parameterized constructor to instantiate multiple objects of your class 
-that can accept various strings. Implement a constant function to verify whether the string variable 
-is valid.
-What are the consequences of not declaring your function as constant? Include a comment directly 
-above your function to clarify the importance of making a function constant.
-*/
-
 /* If we do not declare our function as constant, it may allow changes to the string within the 
 function. By making the function constant, we ensure that the class's data members (except mutable 
 members) remain unchanged during the function's execution. */
