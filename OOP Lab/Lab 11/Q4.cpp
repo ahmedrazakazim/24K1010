@@ -94,7 +94,7 @@ int main() {
      try {
         cout << sqrt_custom(-9) << endl;
     } catch (const NegativeNumberException& e) {
-        cout << e.what() << endl; // Match sample output format
+        cout << e.what() << endl; 
     } catch (const exception& e) {
         cerr << "Unexpected: " << e.what() << endl;
     }
@@ -105,7 +105,7 @@ int main() {
         
         cout << sqrt_custom<string>("hello") << endl;
     } catch (const InvalidTypeException& e) {
-         cout << e.what() << endl; // Match sample output format
+         cout << e.what() << endl; 
     } catch (const exception& e) {
         cerr << "Unexpected: " << e.what() << endl;
     }
